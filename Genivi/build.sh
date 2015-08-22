@@ -6,9 +6,9 @@ if [ ! -d "./GDP" ]; then
 	mkdir GDP
 fi
 
-exit;
+cd GDP
 
-GDP_ROOT=~/Projects/BoxsterConversion/Genivi/
+GDP_ROOT=~/Projects/BoxsterConversion/Genivi/GDP
 
 cd $GDP_ROOT
 
@@ -33,6 +33,8 @@ fi
 if [ ! -d "./meta-openembedded" ]; then
 	git clone git://git.openembedded.org/meta-openembedded
 fi
+
+exit;
 
 # ###################################################
 # Step 1 - get the core meta code
