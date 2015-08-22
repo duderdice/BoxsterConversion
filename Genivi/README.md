@@ -1,5 +1,5 @@
 # Genivi 
-The GENIVI Alliance is a non-profit automotive industry alliance committed to driving the broad adoption of an In-Vehicle Infotainment (IVI) open-source development platform.
+The GENIVI Alliance is a non-profit automotive industry alliance committed to driving the broad adoption of an In-Vehicle Infotainment (IVI) open-source development platform.  This folder is my attempt to make use of their Genivi Demo Platform (see below) for the Boxster Conversion.
 
 
 # Genivi Demo Platform (GDP)
