@@ -8,7 +8,7 @@ Tizen In-Vehicle Infotainment Software Developers Kit (IVI SDK) is a new IVI pla
 
 
 # Notes
-The TizenIVI SDK can be installed via a script provided on the wiki, however there is a dependency on Oracle JDK for java.  Below are the commands used to install java and a couple other dependencies on my Ubuntu 15.04.
+The TizenIDE is an Eclipse-based IDE for developing apps for the Tizen platform, and therefore requires Java.  The TizenIVI SDK can be installed via a script provided on the wiki, however there is a dependency on Oracle JDK.  Below are the commands I used to install java and a couple other dependencies on my Ubuntu 15.04.  After installing the TizenIVI SDK, the IDE should be available as an application in the dash.
 
 * < to install OracleJava >
 * sudo add-apt-repository ppa:webupd8team/java
