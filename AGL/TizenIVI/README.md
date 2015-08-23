@@ -10,13 +10,13 @@ The Tizen IVI project provides a Free and Open-Source Software (FOSS) OS develop
 
 
 # Notes
-Commands used to install java on my clean Ubuntu 15.04 install...
-(from http://www.ghanshammahajan.com/how-to-install-java-8-on-ubuntu-15-04-linux/)
+The TizenIVI SDK can be installed via a script provided on the wiki, however there is a dependency on Oracle JDK for java.  Below are the commands used to install java and a couple other dependencies on my Ubuntu 15.04.
 
 * < to install OracleJava >
 * sudo add-apt-repository ppa:webupd8team/java
 * sudo apt-get update
 * sudo apt-get install oracle-java8-installer
+
 
 * < to install required dependencies of TizenIVI SDK (noted at install time) >
 * sudo apt-get install libwebkitgtk-1.0-0
