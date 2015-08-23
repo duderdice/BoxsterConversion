@@ -1,6 +1,0 @@
-# files to ignore within the BoxsterConversion project...
-
-./Genivi/GDP/**
-
-./website/src/node_modules/
-

@@ -7,7 +7,7 @@ The GENIVI Demo Platform is a technology demonstrator which showcases a concrete
 
 
 # Build script
-The build script here at the root level of the Genivi project is designed to make it very easy to pull the source, build the code, and run the emulator for the GDP.  It will create a GDP folder, then within that folder clone/pull the git projects which comprise the GDP.  The build script also funcitons as a historical record of commands that have worked or not worked for me, so you'll likely find various commands that may be included but are commented out.  Note, this script is written for my system (Ubuntu Linux x86-64) so the script may require modifications if you are running on another platform.
+The build script here at the root level of the Genivi project is designed to make it very easy to pull the source, build the code, and run the emulator for the GDP.  It will create a GDP folder, then within that folder clone/pull the git projects which comprise the GDP.  The build script also functions as a historical record of commands that have worked or not worked for me, so you'll likely find various commands that may be included but are commented out.  Note, this script is written for my system (Ubuntu Linux x86-64) so the script may require modifications if you are running on another platform.
 
 
 # Links

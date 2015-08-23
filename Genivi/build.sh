@@ -12,13 +12,15 @@ GDP_ROOT=~/Projects/BoxsterConversion/Genivi/GDP
 
 cd $GDP_ROOT
 
+#exit
+
 # ###################################################
 # Step 0 - clone the core git projects, if not already exists
 if [ ! -d "./meta-genivi-demo" ]; then
 	git clone git://git.projects.genivi.org/meta-genivi-demo
 fi
 
-if [ ! -d "./meta-genivi" ]; then
+if [ ! -d "./meta-ivi" ]; then
 	git clone git://git.yoctoproject.org/meta-ivi
 fi
 
@@ -34,7 +36,7 @@ if [ ! -d "./meta-openembedded" ]; then
 	git clone git://git.openembedded.org/meta-openembedded
 fi
 
-exit;
+#exit;
 
 # ###################################################
 # Step 1 - get the core meta code
@@ -42,6 +44,7 @@ exit;
 cd meta-genivi-demo/
 git pull
 
+#exit
 
 # ###################################################
 # Step 2 - get the correct layer revisions
@@ -62,8 +65,7 @@ git checkout 6413cdb66acf43059f94d0076ec9b8ad6a475b35
 cd ../poky
 git checkout b630f2f53645fa8f5890b4732f251c354ad525a7
 
-exit
-
+#exit
 
 # ###################################################
 # Step 3 - setup build variables
@@ -71,16 +73,19 @@ cd ../meta-genivi-demo/conf
 export TEMPLATECONF=`pwd`
 cd $GDP_ROOT
 
+#exit
 
 # ###################################################
 # Step 4 - initialize environment for build
 source poky/oe-init-build-env gdp-src-build
 
+#exit
 
 # ###################################################
 # Step 5 - execute build
 bitbake genivi-demo-platform
 
+#exit
 
 # ###################################################
 # Step 6 - launch the build target (qemux86 image)
@@ -91,7 +96,7 @@ cd $BUILDDIR/tmp/deploy/images/qemux86-64/
 #QEMU_AUDIO_DRV=pa; $HOME/Projects/GDP/meta-genivi-demo/scripts/runqemu bzImage-qemux86-64.bin genivi-demo-platform-qemux86-64.ext3 qemuparams="-soundhw ac97"
 
 #from mailing list...
-sudo /usr/bin/qemu-system-x86_64 -kernel ./bzImage-qemux86-64.bin -net nic,vlan=0 -net tap,vlan=0,ifname=tap0,script=no,downscript=no -cpu core2duo -hda ./genivi-demo-platform-qemux86-64.ext3 -vga vmware -no-reboot -soundhw ac97 -m 256 --append "vga=0 uvesafb.mode_option=640x480-32 root=/dev/hda rw mem=256M ip=192.168.7.2::192.168.7.1:255.255.255.0 oprofile.timer=1 "
+sudo qemu-system-x86_64 -kernel ./bzImage-qemux86-64.bin -net nic,vlan=0 -net tap,vlan=0,ifname=tap0,script=no,downscript=no -cpu core2duo -hda ./genivi-demo-platform-qemux86-64.ext3 -vga vmware -no-reboot -soundhw ac97 -m 256 --append "vga=0 uvesafb.mode_option=640x480-32 root=/dev/hda rw mem=256M ip=192.168.7.2::192.168.7.1:255.255.255.0 oprofile.timer=1 "
 
 # ###################################################
 # Step 7 - remote into the qemux86 image
