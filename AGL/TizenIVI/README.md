@@ -12,6 +12,7 @@ The Tizen IVI project provides a Free and Open-Source Software (FOSS) OS develop
 * During the install process, I changed the path to this directory for 'tizen-sdk', 'tizen-sdk-data', (and 'tizen-ide-workspace' on first run of the app), for better digital housekeeping, however these folders are all listed in gitignore so that they don't needlessly clutter the git project.  I may choose to include the workspace folder, if I end up with source code for sample apps that I want to track within this project.
 * After installing the TizenIVI SDK, the IDE should be available as an application in the dash.  
 
+
 * < to install OracleJava >
 * sudo add-apt-repository ppa:webupd8team/java
 * sudo apt-get update
