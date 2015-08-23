@@ -16,8 +16,6 @@ The TizenIVI SDK can be installed via a script provided on the wiki, however the
 * sudo add-apt-repository ppa:webupd8team/java
 * sudo apt-get update
 * sudo apt-get install oracle-java8-installer
-
-
 * < to install required dependencies of TizenIVI SDK (noted at install time) >
 * sudo apt-get install libwebkitgtk-1.0-0
 * sudo apt-get install rpm2cpio
