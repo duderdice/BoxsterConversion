@@ -9,7 +9,7 @@ The Tizen IVI project provides a Free and Open-Source Software (FOSS) OS develop
 
 # Notes
 * The TizenIDE is an Eclipse-based IDE for developing apps for the Tizen platform, and therefore requires Java.  The TizenIVI SDK can be installed via a script provided on the wiki, however there is a dependency on Oracle JDK.  Below are the commands I used to install java and a couple other dependencies on my Ubuntu 15.04.  
-* During the install process, I changed the path to this directory for 'tizen-sdk', 'tizen-sdk-data', (and 'tizen-ide-workspace' on first run of the app), for better digital housekeeping, however these folders are all listed in gitignore so that they don't needlessly clutter the git project.  I may choose to include the workspace folder, if I end up with source code for sample apps that I want to track within this projects.
+* During the install process, I changed the path to this directory for 'tizen-sdk', 'tizen-sdk-data', (and 'tizen-ide-workspace' on first run of the app), for better digital housekeeping, however these folders are all listed in gitignore so that they don't needlessly clutter the git project.  I may choose to include the workspace folder, if I end up with source code for sample apps that I want to track within this project.
 * After installing the TizenIVI SDK, the IDE should be available as an application in the dash.  
 
 * < to install OracleJava >
