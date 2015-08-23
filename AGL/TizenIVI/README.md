@@ -1,30 +1,24 @@
-# TizenIVI
-Automotive Grade Linux is a Linux Foundation Workgroup dedicated to creating open source software solutions for automotive applications. Although the initial target for AGL is In-Vehicle-Infotainment (IVI) systems, additional use cases such as instrument clusters and telematics systems will eventually be supported.  This folder is my attempt to make use of their AGL Demo Platform (see below) for the Boxster Conversion.
+# TizenIVI (from the project Wiki...)
+The Tizen IVI project provides a Free and Open-Source Software (FOSS) OS development platform for IVI embedded computing systems.  The Tizen IVI solution enables modern portable applications to provide rich Internet and multimedia experiences to consumers while they travel by leveraging the Tizen code base for mobile computers and handsets and extending its functionality into vehicles.  This folder is my attempt to make use of TizenIVI for the Boxster Conversion.
 
 
-# AGL Demonstrator and TizenIVI
-(from the project Wiki...)
-The AGL Reference Platform utilizes Tizen IVI as its core operating system stack and adds middleware packages and a user experience to it.
-
-The AGL Reference Platform User Experience is written entirely in HTML5 and JavaScript. It uses the Tizen IVI web runtime which interfaces with the vehicle through plugins that communicate with vehicle buses via the Automotive Message Broker (AMB).
-
-The current web runtime is Webkit but Tizen will migrate to Crosswalk within the next couple of months. Crosswalk is a more modern web runtime environment based on Chrome and Blink. It is also better performing than Webkit.
-
-The purpose of the AGL Reference Platform User Experience is to demonstrate how applications are developed and to exercise the underlying middleware and operating system stack components. This is not meant to be a production user interface.
+# TizenIVI SDK(from the project Wiki...)
+* Tizen IVI SDK - Tizen IVI 3.0 Final Release (2015/2/2)
+* Tizen In-Vehicle Infotainment Software Developers Kit (IVI SDK) is a new IVI platform supported under Tizen SDK. It supports IVI web application development and runs on Windows, Ubuntu, and Mac OS X. It includes Emulator (based on QEMU), Web Simulator, IDE, documents and samples, and supports a real IVI device as a target.
 
 
 # Notes
 Commands used to install java on my clean Ubuntu 15.04 install...
 (from http://www.ghanshammahajan.com/how-to-install-java-8-on-ubuntu-15-04-linux/)
 
-< to install OracleJava >
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install oracle-java8-installer
+* < to install OracleJava >
+* sudo add-apt-repository ppa:webupd8team/java
+* sudo apt-get update
+* sudo apt-get install oracle-java8-installer
 
-< to install required dependencies of TizenIVI SDK (noted at install time) >
-sudo apt-get install libwebkitgtk-1.0-0
-sudo apt-get install rpm2cpio
+* < to install required dependencies of TizenIVI SDK (noted at install time) >
+* sudo apt-get install libwebkitgtk-1.0-0
+* sudo apt-get install rpm2cpio
 
 
 # TizenIVI Links
