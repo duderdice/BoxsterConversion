@@ -26,5 +26,13 @@ The Tizen IVI project provides a Free and Open-Source Software (FOSS) OS develop
 * https://wiki.tizen.org/wiki/IVI/Dashboard
 * https://source.tizen.org/documentation/developer-guide
 * https://wiki.tizen.org/wiki/Tizen_IVI_SDK
+* https://wiki.tizen.org/wiki/IVI/Modello
+* http://www.engadget.com/2015/07/22/tizen-the-emperor-has-no-clothes/
 
 
+# Tweaks to TizenIVI SDK (from Help docs > Getting Started with Tizen > FAQ > TizenSDK and IDE)
+* within ~/tizen-sdk/ide/eclipse.ini:
+* Change Xms40m to Xms256m.
+* Change Xmx256m to Xmx1024m.
+* XX:PermSize=64m
+* XX:MaxPermSize=128m
