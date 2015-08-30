@@ -2,11 +2,11 @@ Beagle Bone Black (BBB)
 ===
 
 ## About ##
-This low-cost device is analagous to an Arduino, readily available, low-cost (~$35), well supported and, best of all, runs a full Linux environment.  It can also runs BoneScript, which is a NodeJS powered JavaScript programming environment for embedded device.  This means it can be easily programmed in JavaScript to perform various tasks controlling input/output pins on the board.  All of these factors make me believe it has a role to play in the Boxster conversion project, whether to drive the main touchscreen display in the vehicle (ala Tesla), or perhaps playing the role of the BCU (body control unit - managing environmental controls and pretty much everything other than the drivetrain) in concert with the GEVCU's role as ECU (engine control unit - managing the drivetrain).  
+This low-cost device is analagous to an Arduino: small low-power circuit board providing programmable GPIO pins, readily available, low-cost (~$35), well supported and, best of all, runs a full Linux environment.  It can run BoneScript, which is a NodeJS-powered programming environment for embedded device.  This means it can be easily programmed in JavaScript to perform various tasks controlling input/output pins on the board.  The future of JavaScript looks very bright so this has a very promising present and future.  All of these factors make me believe this board has a role to play in the Boxster conversion project, whether to drive the main touchscreen display in the vehicle (ala Tesla), or perhaps playing the role of the BCU (body control unit - managing environmental controls and pretty much everything other than the drivetrain) in concert with the GEVCU's role as ECU (engine control unit - managing just the drivetrain).  
 
 
 ## Usage ##
-Still trying to figure out where & how I want to make use of it in the project, so stay tuned for more detail...
+Still trying to figure out where & how I want to make use of it in this project, so stay tuned for more detail...
 
 
 ## Misc ##
