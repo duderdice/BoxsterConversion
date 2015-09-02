@@ -1,5 +1,4 @@
 
-
 # High-voltage DC-DC converters:
 
 * http://literature.rockwellautomation.com/idc/groups/literature/documents/td/1606-td002_-en-p.pdf
@@ -32,3 +31,11 @@
 # CAN bus
 
 http://www.can-cia.org/about-us/
+
+# Nate Willis' experience & tips
+* [Automotive Grade Linux ~Sep2012](https://lwn.net/Articles/517424/)
+* [Building a TizenIVI Test Experience ~Jul2015](https://lwn.net/Articles/652666/)
+* [Presentation at SCALE 2012](https://www.socallinuxexpo.org/sites/default/files/presentations/willis-scale13x-hackyourcartheeasyway.pdf)
+* [Alison Chaiken's linux automotive info page](http://she-devel.com/)
+* [Alison Chaien => adapting systemd to automotive](http://she-devel.com/AGL_systemd_2015.pdf)
+
