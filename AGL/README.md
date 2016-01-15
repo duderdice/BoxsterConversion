@@ -18,6 +18,18 @@ As I understand this project and how it differs from Genivi, it is intended to b
 
 Intel is a key driver of this project and their prior efforts were primarily in partnership with Samsung and based on the TizenIVI solution.  Samsung is making a large push to use Linux on all their devices (mobile phones, televisions, appliances, etc.) but there does not seem to be a broad adoption of TizenIVI in the automotive world.  As of mid-2015, the Linux Foundation and Intel seems to be re-booting the AGL project to move things forward apparently separating from the Tizen-based infrastructure, and making a more core-Linux powered, Genivi compliant solution that cooperates better with the players within the automotive industry.   At least that is how I read the tea leaves.  Personally, I am excited about the new direction and the energy within the AGL project and hope it bears fruit.  I'm happy to contribute where I can, thus the existence of this subfolder in the BoxsterConversion project!
 
+# How to build
+
+## See [wiki page](https://wiki.automotivelinux.org/agl-distro/source-code) for more info.
+
+repo init -u https://gerrit.automotivelinux.org/gerrit/AGL/AGL-repo
+
+repo sync
+
+source meta-agl/scripts/envsetup.sh qemux86-64 ./build
+
+bitbake agl-demo-platform
+
 
 # AGL Links
 * https://www.automotivelinux.org/
