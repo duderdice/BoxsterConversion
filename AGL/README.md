@@ -37,3 +37,10 @@ bitbake agl-demo-platform
 * https://wiki.automotivelinux.org/project_proposals
 * https://wiki.automotivelinux.org/project-agl-demonstrator
 
+* http://old.lwn.net/Articles/647753/
+* https://lwn.net/Articles/572598/
+* https://lwn.net/Articles/646930/
+* https://lwn.net/Articles/646930/
+* https://lwn.net/Articles/604499/
+* http://old.lwn.net/Articles/517424/
+* https://lwn.net/Articles/552223/
