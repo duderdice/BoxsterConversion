@@ -30,6 +30,22 @@ source meta-agl/scripts/envsetup.sh qemux86-64 ./build
 
 bitbake agl-demo-platform
 
+Issues:
+
+1) received error as follows
+
+WatchManagerError: add_watch: cannot watch /home/darryl/Projects/BoxsterConversion/AGL/build/conf/bblayers.conf WD=-1, Errno=No space left on device (ENOSPC)
+
+I ran this command => "sysctl -n fs.inotify.max_user_watches" and got result "8192", which is apparently too low.  The watcher limit can be bumped up with this command => "sudo sysctl -w fs.inotify.max_user_watches=100000"
+
+2) ERROR: User requested feature sdl
+|        configure was not able to find it.
+|        Install SDL devel
+
+From details in [this bug report](https://bugzilla.yoctoproject.org/show_bug.cgi?id=8553) add the following line to local.conf:
+
+    BUILD_LDFLAGS_prepend_pn-qemu-native = "-Wl,-rpath-link,/lib/x86_64-linux-gnu "
+
 
 # AGL Links
 * https://www.automotivelinux.org/
