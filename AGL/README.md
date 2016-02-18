@@ -52,11 +52,12 @@ From details in [this bug report](https://bugzilla.yoctoproject.org/show_bug.cgi
 * https://wiki.automotivelinux.org/
 * https://wiki.automotivelinux.org/project_proposals
 * https://wiki.automotivelinux.org/project-agl-demonstrator
-
+* https://lwn.net/Articles/652666/
 * http://old.lwn.net/Articles/647753/
-* https://lwn.net/Articles/572598/
 * https://lwn.net/Articles/646930/
-* https://lwn.net/Articles/646930/
+* http://old.lwn.net/Articles/617543/
 * https://lwn.net/Articles/604499/
-* http://old.lwn.net/Articles/517424/
+* https://lwn.net/Articles/572598/
 * https://lwn.net/Articles/552223/
+* http://old.lwn.net/Articles/517576/
+* http://old.lwn.net/Articles/517424/
