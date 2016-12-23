@@ -61,3 +61,8 @@ From details in [this bug report](https://bugzilla.yoctoproject.org/show_bug.cgi
 * https://lwn.net/Articles/552223/
 * http://old.lwn.net/Articles/517576/
 * http://old.lwn.net/Articles/517424/
+
+
+# Hardware
+
+[Renesas M2 Porter board](http://elinux.org/R-Car/Boards/Porter)
